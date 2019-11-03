@@ -1,0 +1,84 @@
+.nb-search-container {
+   display: grid;
+   color:gray;
+   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+   grid-auto-rows: minmax(10px, auto);
+   grid-gap:10px;
+   border:1px solid;
+   padding:10px;
+}
+
+.nb-search-container > div {
+  border: 1px solid;
+  margin: 5px;
+}
+
+.search-action {
+  margin: 10px;
+  border:1px solid gray;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
+}
+
+.nb-result-container{
+  margin: 15px;
+  border: 1px solid;
+  color: gray;
+}
+
+.nb-result-container > div {
+  margin: 10px;
+}
+
+.nb-result-card-des, .nb-result-card-fields {
+   display: grid;
+   color:gray;
+   grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+   grid-auto-rows: minmax(10px, auto);
+   grid-gap:10px;
+   border:1px solid;
+   padding:10px;
+}
+
+
+-------------------------------------------------
+<div class="nb-main-container">
+
+  <div class="nb-search-container">
+    <div>s1 dsafdasfdsafds
+    </div>
+    <div>s2</div>
+    <div>s3</div>
+    <div>s4</div>
+    <div>s5</div>
+    <div>s6</div>
+  </div>
+
+   <div class="search-action">
+    <div>Submit </div>
+    <div>Reset </div>
+  </div>
+
+  <div class="nb-result-container">
+    <div class="nb-result-card-des">
+        <div>s1 dsafdasfdsafds
+        </div>
+        <div>s2</div>
+        <div>s3</div>
+        <div>s4</div>
+        <div>s5</div>
+        <div>s6</div>
+    </div>
+    <div class="nb-result-card-fields">
+        <div>s1 dsafdasfdsafds
+        </div>
+        <div>s2</div>
+        <div>s3</div>
+        <div>s4</div>
+        <div>s5</div>
+        <div>s6</div>
+    </div>
+  </div>
+
+</div>
